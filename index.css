@@ -1,0 +1,12 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(25, 22, 22);
+    color: #fff;
+}
+#root
+{
+    padding: 0px;
+    margin: 0px;
+}

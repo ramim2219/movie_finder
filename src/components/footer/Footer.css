@@ -1,0 +1,74 @@
+/* Footer Styles */
+.footer {
+    background-color: #2c2c2c; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 40px 20px; /* Padding for spacing */
+    text-align: left; /* Left align text */
+}
+
+/* Footer Content Styles */
+.footer-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+}
+
+/* Footer Section Styles */
+.footer-section {
+    flex: 1; /* Allow sections to grow equally */
+    margin: 10px; /* Space between sections */
+    min-width: 200px; /* Minimum width for sections */
+}
+
+/* Footer Section Title Styles */
+.footer-section h4 {
+    margin-bottom: 15px; /* Space below title */
+    font-size: 1.2rem; /* Font size for titles */
+    border-bottom: 2px solid #ff7e5f; /* Bottom border for emphasis */
+    padding-bottom: 5px; /* Space below border */
+}
+
+/* List Styles */
+.footer-section ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section ul li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.footer-section ul li a {
+    color: #ffffff; /* White links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+/* Link Hover Effect */
+.footer-section ul li a:hover {
+    color: #ff7e5f; /* Change color on hover */
+}
+
+/* Social Links Styles */
+.social-links {
+    display: flex; /* Flexbox for social links */
+}
+
+.social-links a {
+    color: #ffffff; /* White icons */
+    font-size: 1.5rem; /* Icon size */
+    margin-right: 15px; /* Space between icons */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+/* Social Link Hover Effect */
+.social-links a:hover {
+    color: #ff7e5f; /* Change color on hover */
+}
+
+/* Footer Bottom Styles */
+.footer-bottom {
+    text-align: center; /* Center align text */
+    margin-top: 20px; /* Space above */
+    font-size: 0.9rem; /* Smaller font size */
+}

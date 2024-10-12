@@ -1,0 +1,160 @@
+/* Container Styles */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 70vh;
+}
+
+/* Form Styles */
+.search-form {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(40, 40, 40, 0.9), rgba(60, 60, 60, 0.9));
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+}
+
+/* Input Field Styles */
+.search-input {
+    width: 350px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff; /* Light background for input */
+    color: #333; /* Dark text color for better readability */
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+/* Input Focus Styles */
+.search-input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Blue shadow to relate with button */
+}
+
+/* Button Styles */
+.search-button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600; /* Bolder font for button text */
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+.search-button:hover {
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+.moviesBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Card Styles */
+.movieCard {
+    display: flex; /* Use flexbox for aligning elements */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center align items */
+    background-color: #2c2c2c; /* Dark background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    margin: 15px;
+    padding: 10px;
+    max-width: 200px; /* Set max width for cards */
+    transition: transform 0.3s;
+    text-align: center; /* Center text alignment for the card */
+}
+
+.movieCard:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+/* Poster Styles */
+.moviePoster {
+    border-radius: 8px;
+    width: 100%; /* Full width for poster */
+    height: 300px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures image covers the area without stretching */
+}
+
+/* Movie Details Styles */
+.movieDetails {
+    color: #fff; /* White text for contrast */
+    margin-top: 10px;
+}
+
+.movieTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.movieReleaseDate,
+.movieRating {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+/* View Details Link */
+/* Button Styles */
+.card-action {
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+    margin-bottom: 10px; /* Space below the button */
+}
+.view-details-button {
+    display: inline-block; /* Allows padding and background color */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 1rem; /* Font size */
+    color: #fff; /* White text */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    border: none; /* Remove default border */
+    border-radius: 20px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    text-align: center; /* Center text */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Button Hover Effect */
+.view-details-button:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Slightly raise the button */
+}
+
+/* Button Focus Effect */
+.view-details-button:focus {
+    outline: none; /* Remove outline on focus */
+    box-shadow: 0 0 5px rgba(255, 126, 95, 0.7); /* Glow effect on focus */
+}
+
+
+/* Error Message Styles */
+.error-message {
+    color: red; /* Change to your preferred error color */
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-input {
+        width: 250px; /* Adjust input width for smaller screens */
+    }
+
+    .search-button {
+        width: 100%; /* Full width button on mobile */
+        margin-top: 10px; /* Space between input and button */
+    }
+}
